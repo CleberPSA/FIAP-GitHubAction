@@ -20,8 +20,10 @@ jobs:
       name: Step 2
       run: echo Olá, mundo é o nosso primeiro job no GitHub Actions!
 
-    - name: Step 3
+    - shell: cmd
+      name: Step 3
       run: echo Olá, Esta é a step 3
 
-    - name: Step 4
+    - shell: cmd
+      name: Step 4
       run: echo Olá, Esta é a step 4 
