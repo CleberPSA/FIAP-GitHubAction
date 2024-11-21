@@ -11,10 +11,10 @@ jobs:
   test_job:
     name: Executando job de teste
     runs-on: self-hosted
-
+    
       steps: 
       - name: Step 1
-        uses: ubuntu-latest
+        uses: actions/checkout@v2
 
       - name: Step 2
         run: echo Olá, mundo é o nosso primeiro job no GitHub Actions!
