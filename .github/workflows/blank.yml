@@ -12,15 +12,15 @@ jobs:
     name: Executando job de teste
     runs-on: self-hosted
     
-      steps: 
-      - name: Step 1
-        uses: actions/checkout@v2
+    steps: 
+    - name: Step 1
+      uses: actions/checkout@v2
 
-      - name: Step 2
-        run: echo Olá, mundo é o nosso primeiro job no GitHub Actions!
+    - name: Step 2
+      run: echo Olá, mundo é o nosso primeiro job no GitHub Actions!
 
-      - name: Step 3
-        run: echo Olá, Esta é a step 3
+    - name: Step 3
+      run: echo Olá, Esta é a step 3
 
-      - name: Step 4
-        run: echo Olá, Esta é a step 4 
+    - name: Step 4
+      run: echo Olá, Esta é a step 4 
